@@ -211,7 +211,7 @@ class ComparisonRewardPredictor():
 def main():
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('-e', '--env_id', required=True, default='HalfCheetahBulletEnv-v0')
+    parser.add_argument('-e', '--env_id', default='HalfCheetahBulletEnv-v0')
     parser.add_argument('-p', '--predictor', required=True)
     parser.add_argument('-n', '--name', required=True)
     parser.add_argument('-s', '--seed', default=1, type=int)
